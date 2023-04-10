@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+body {
+	background-color: #212529;
+	width: 100%;
+	height: 100vh;
+	padding: 50px;
+}
+
+.timer {
+	display: flex;
+	align-items: center;
+	margin-top: 150px;
+	justify-content: space-evenly;
+	color: #fff;
+	text-align: center;
+}
+
+.timer-items {
+	padding: 50px;
+	text-transform: uppercase;
+}
+
+.timer-items h1 {
+	font-size: 68px;
+	margin-bottom: 40px;
+}
+
+.timer-items h1 span {
+	color: #ff7b63;
+}
+
+#timer-display {
+	font-size: 100px;
+	margin-bottom: 40px;
+	background: rgba(255, 255, 255, 0.3);
+	backdrop-filter: blur(10px);
+	border-radius: 5px;
+}
+
+.options {
+	width: 100%;
+	padding: 20px;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.btns {
+	width: 100%;
+	padding: 20px;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+button {
+	text-transform: uppercase;
+	font-weight: 500;
+	width: fit-content;
+	min-width: 150px;
+	margin: 0 20px;
+	height: 45px;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0px 0px 20px -20px;
+	cursor: pointer;
+	background-color: white;
+	transition: all 0.2s ease-in-out 0ms;
+	user-select: none;
+	font-family: "Poppins", sans-serif;
+}
+
+button:hover {
+	background-color: #ff7b63;
+	color: #fff;
+	outline: none;
+	box-shadow: 0px 0px 20px -18px;
+}
+
+button:active {
+	transform: scale(0.95);
+}
+
+.option--active {
+	background-color: #ff7b63;
+	color: #fff;
+	outline: none;
+}
